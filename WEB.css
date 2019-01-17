@@ -1,0 +1,101 @@
+@font-face {
+    font-family:font_content;
+    src:url('./font/NotoSerif-Regular.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family:font_sapo;
+    src:url('./font/SFUFuturaHeavy.TTF') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family:font_title;
+    src:url('./font/FS Playlist Script.otf') format('opentype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+
+
+#content {
+    font-family: font_content;
+    max-width: 660px;
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin: auto;
+}
+#title{
+    color: rgb(245, 157, 42);
+    font-size: 55px;
+    font-family: font_title;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#sapo #loimodau{
+    font-family: font_sapo;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom : 50px;
+}
+#anhghep,#tit1anh7{
+    max-width: 1190px ;
+    width: 100%;
+    height: auto ;
+}
+#cover,#tit1anh4,#tit4anh4{
+    max-width: 979px;
+    width: 100%;
+    height: auto;
+}
+.firstcharacter {
+    float: left;
+    font-size: 75px;
+    line-height: 70px;
+    margin: 0;
+    padding-top: 0px;
+    padding-right: 5px;
+  }
+#anhsapo{
+    max-width: 660px;
+    max-height:850px;
+}
+#tit2anh4,#tit2anh3,#tit3anh3{
+    max-width: 660px;
+    width: 100%;
+    height: auto;
+}
+#anhsapo img{
+    margin-top: 15px;
+    width: 50%;
+    max-height: 425px;
+}
+
+#tit1anh123, #tit2anh123,#tit4anh123{
+    max-width: 979px;
+    max-height :750px;
+}
+#tit1anh123 img,#tit2anh123 img,#tit4anh123 img{
+    width: 34%;
+    max-height: 250px;
+}
+#tit1anh56,#tit3anh12 {
+    max-width: 979px;
+    max-height:655px;
+}
+#tit1anh56 img,#tit3anh12 img{
+    width: 50%;
+    max-height: 324px;
+}
+#footer{
+    font-family: font_sapo;
+    padding: 0;
+    padding-left:40px;
+    border-left: 10px solid red;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
